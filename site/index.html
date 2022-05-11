@@ -1,9 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Mikhail</title>
+<meta charset="utf-8">
+<title>The Box Model</title>
+<style>
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+  	padding: 0;
+  	font-family: cursive;
+  	font-style: normal; 
+}
+h1 {
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;	
+	text-align: center;
+	background-color: yellow;
+  }
+
+
+body {
+  background-color: lightgrey;
+  }
+div#box2, div#box, div#box3 {
+	width: 300px;
+  	height: 300px;
+  	background-color: #d6cb2b ;
+  	padding: 5px;
+  	border: 7px solid purple;
+  	text-align: center;  
+  	overflow: auto; 	
+
+} 
+/*::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track-piece  {
+    background-color: #C2D2E4;
+}
+::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: #0A4C95;
+}*/
+.scroller::-webkit-scrollbar-track  {
+    background-color: #C2D2E4;
+}
+#box {
+	position: relative;	 
+	margin-top: 20px;
+	margin-left: 0px; 
+	/*::-webkit-scrollbar-track-piece	*/
+}
+#box2 {
+	position: relative;
+	margin-left: 320px;	  
+	margin-top: -300px;	
+	font-family: cursive;
+}
+
+#box3 {
+	position: relative;
+	margin-left: 640px;	  
+	margin-top: -300px;	
+}
+
+#content {
+  background-color: #90EE90; /*green*/
+  }
+#global {
+  text-align: center;
+  margin: 0px;
+}
+.my {
+	position: relative;
+	width: 100px;
+  	height: 30px;
+  	background-color: blue;
+  	margin-top: -20px;
+  	margin-left: 150px; 
+  	font-family: fantasy ;
+}
+h1{
+	color: blue;
+}
+
+</style>
 </head>
+
 <body>
-<h1>Hi Coursera, it's a great course</h1>
+	<h1>Box Model</h1>
+
+<div id="box">
+  	<li id="content">BOX tetur adipisicing elit. Lorem ipsum dolsit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, cotur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit am                                                     et, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetu
+  	</li>
+</div>
+
+<div id="box2">
+  	<li id="content">BOX2 tetur adipisicing elit. Lorem ipsum dolsit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, cotur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit am                                                     et, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetu
+  	</li>
+</div>
+<div id="box3">	
+  	<li id="content">
+  		<div class="my">BOX3</div>BOX 3 tetur adipisicing elit. Lorem ipsum dolsit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, cotur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit am                                                     et, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetutur adipisicing elit. Lorem ipsum dolsit amet, consectetu
+  	</li>
+</div>
+
+
 </body>
 </html>
+
+
+
+
