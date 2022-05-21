@@ -1,0 +1,35 @@
+h1{
+  margin-bottom: 30px;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  background-color: antiquewhite;
+}
+p {
+  background-color: antiquewhite;
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+#center{
+  text-align: right;
+}
+.container-fluid {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 0;
+  padding-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.textzoom {
+  font-size: 2.8em ;
+}
+.navbar-toggle {
+  top: 5px;
+}
+li {
+  font-size: 18px;
+}
